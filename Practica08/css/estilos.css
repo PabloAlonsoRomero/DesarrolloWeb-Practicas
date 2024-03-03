@@ -1,0 +1,38 @@
+.transformacion {
+    margin-left: 400px;
+    /* Combinación de transformaciones */
+    transform: translate(50px, 100px) rotate(45deg) scale(1.5);
+    /* Transformación de perspectiva */
+    transform-style: preserve-3d;
+    perspective: 100px;
+    /* Transformación de origen */
+    transform-origin: 50% 50%;
+}
+
+.transformacion:hover {
+    /* Al pasar el ratón, aplicamos otra transformación */
+    transform: translate(50px, 100px) rotateY(-45deg) scale(1.5);
+}
+
+.cubo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cubo:hover {
+    transform: rotateY(180deg);
+}
