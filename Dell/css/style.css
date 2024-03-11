@@ -1,0 +1,223 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif!important;
+}
+
+nav {
+    font-size: 14px;
+}
+
+.navbarclass {
+    background-color: #FFFFFF;
+}
+
+.dellTechLogo {
+    height: 23px;
+    width: 182px;
+}
+
+path {
+    fill: #0076ce;
+}
+
+.dropdown {
+    list-style-type: none;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+  
+.dropdownidiomas {
+    position: absolute;
+    right: 0;
+    left: auto;
+    width: 500px;
+    background-color: #f8f9fa;
+    font-size: 16px !important;
+}
+
+.dropdownidiomas:nth-of-type(2) {
+    position: absolute;
+    right: auto;
+    left: 0;
+    width: 500px;
+    background-color: #f8f9fa;
+    font-size: 16px !important;
+}
+
+.dropdownidiomas .nav-link {
+    color: #000; /* Color de texto negro */
+}
+
+.navabajo {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.navabajo .nav-link, .navbararriba, .contact {
+    color: #666666;
+}
+
+.borde {
+    border-bottom: 1px solid #666666;
+}
+
+.texto {
+    position: absolute;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+    transform: translate(0%, -150%);
+}
+
+.contenidotextofondo{
+    margin-left: 80px;
+    color: #666666;
+}
+
+.fondo .texto .contenidotextofondo {
+    font-size: 14px;
+}
+
+.ofertas {
+    margin-top: 16px;
+    font-size: 34px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.boton {
+    margin-top: 40px;
+    background-color: #0672CB !important;
+    padding: 5px 18px !important;
+    font-size: 16px !important;
+    border-radius: 2px !important;
+}
+
+.imagen {
+    height: 600px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+.image-text-container {
+    overflow-x: hidden;
+}
+
+.imagentexto {
+    width: 1600px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.contentimages {
+    display: flex;
+}
+
+.contentimages div {
+    flex: 33.33%;
+    max-width: 33.33%;
+    height: auto;
+}
+
+.contentimages .buttons {
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons img {
+    width: 100%;
+    height: 100%;
+}
+
+.buttons::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.buttons span {
+    position: absolute;
+    z-index: 3;
+    font-size: 25px;
+    color: white;
+}
+
+.buttons:hover span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.contentimages div {
+    animation: slideInFromBottom 1s ease-out;
+}
+
+.contentimages div:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.contentimages div:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.texto1 {
+    font-size: 35px;
+}
+
+.texto2 {
+    font-size: 16px;
+}
+
+.textsecondimage {
+    position: absolute;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+    transform: translate(15%, -150%);
+}
+
+.botonventa {
+    color: rgb(96, 120, 217) !important;
+    background-color: lightgray !important;
+}
+
+.colorgraylight {
+    background-color: #e1e1e1;
+}
+
+.d-flex div.p-2 {
+    flex: 1; /* Hace que cada div ocupe el mismo espacio */
+    flex-basis: 0; /* Evita que el tamaño del contenido afecte el tamaño del div */
+    margin: 10px; /* Agrega una separación de 10px en todos los lados */
+}
+
+h6 {
+    font-weight: bold !important; /* Hace que el texto esté en negrita */
+}
